@@ -12,3 +12,18 @@ function sum() {
     }
     window.alert(total);
 }
+
+// p.103
+function calculateTotal(scores){
+    var total=0;
+    for (var index=0;index<scores.length;index++){
+        total +=scores[index];
+    }
+    return total;
+}
+
+function calculateAverage(scores){
+    return calculateTotal(scores)/scores.length;
+}
+
+// 
